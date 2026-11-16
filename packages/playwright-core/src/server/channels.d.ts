@@ -4275,6 +4275,7 @@ export type PageExpectScreenshotErrorDetails = {
   actual?: Binary,
   previous?: Binary,
   timedOut?: boolean,
+  isStable?: boolean,
   log?: string[],
 };
 export type PageScreenshotParams = {
