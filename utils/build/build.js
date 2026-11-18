@@ -657,7 +657,7 @@ steps.push(new EsbuildStep({
     filePath('packages/playwright-core/src/tools/cli-client/*.ts'),
     filePath('packages/playwright-core/src/package.ts'),
     filePath('packages/playwright-core/src/tools/utils/socketConnection.ts'),
-    filePath('packages/playwright-core/src/tools/utils/extension.ts'),
+    filePath('packages/playwright-core/src/server/chromium/crExtensionProfile.ts'),
   ],
   outdir: filePath('packages/playwright-core/lib'),
   plugins: [dynamicImportToRequirePlugin],

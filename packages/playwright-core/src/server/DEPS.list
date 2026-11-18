@@ -20,6 +20,9 @@ node_modules/yazl
 
 [devtoolsController.ts]
 
+[chromium/crExtensionProfile.ts]
+"strict"
+
 [playwright.ts]
 ./android/
 ./bidi/

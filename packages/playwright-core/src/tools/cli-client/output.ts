@@ -18,7 +18,7 @@
 
 import path from 'path';
 
-import { playwrightExtensionInstallUrl } from '../utils/extension';
+import { playwrightExtensionInstallUrl } from '../../server/chromium/crExtensionProfile';
 import { processExit } from '../../bootstrap';
 
 import type { ChannelSession } from './channelSessions';

@@ -7,9 +7,6 @@
 [connect.ts]
 "strict"
 
-[extension.ts]
-"strict"
-
 [installSkills.ts]
 "strict"
 ../../package.ts
