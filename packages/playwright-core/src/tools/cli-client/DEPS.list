@@ -17,12 +17,12 @@
 [output.ts]
 "strict"
 ../../bootstrap.ts
-../utils/extension.ts
+../../server/chromium/crExtensionProfile.ts
 ./channelSessions.ts
 
 [channelSessions.ts]
 "strict"
-../utils/extension.ts
+../../server/chromium/crExtensionProfile.ts
 
 [session.ts]
 "strict"

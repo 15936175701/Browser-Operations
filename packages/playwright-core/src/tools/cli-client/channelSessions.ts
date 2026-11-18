@@ -19,7 +19,7 @@ import net from 'net';
 import os from 'os';
 import path from 'path';
 
-import { isPlaywrightExtensionInstalled } from '../utils/extension';
+import { isPlaywrightExtensionInstalled } from '../../server/chromium/crExtensionProfile';
 
 export type ChannelSession = {
   channel: string;
